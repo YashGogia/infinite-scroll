@@ -27,7 +27,7 @@ export function ProductList() {
 
   useEffect(() => {
     fetchProducts()
-  }, [])
+  }, []) // eslint-disable-line
 
   useEffect(() => {
     if (isLoading) return;
