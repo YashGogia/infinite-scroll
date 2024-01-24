@@ -27,7 +27,7 @@ export function ProductList() {
 
   useEffect(() => {
     fetchProducts()
-  }, [fetchProducts])
+  }, [])
 
   useEffect(() => {
     if (isLoading) return;
