@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/infinite-scroll/static/css/main.c20f8696.css",
+    "main.js": "/infinite-scroll/static/js/main.100b824b.js",
+    "index.html": "/infinite-scroll/index.html",
+    "main.c20f8696.css.map": "/infinite-scroll/static/css/main.c20f8696.css.map",
+    "main.100b824b.js.map": "/infinite-scroll/static/js/main.100b824b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c20f8696.css",
+    "static/js/main.100b824b.js"
+  ]
+}
