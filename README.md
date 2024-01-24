@@ -5,15 +5,16 @@
 In this example we'll explore a simple infinite scroll example using intersection observer in React.
 
 The API used for this is:
-`https://api.escuelajs.co/docs`
+`https://dummyjson.com/products`
 
 ## Checklist
 
-- [ ] Add a Products page using the API
-  - [ ] Call the API on mount
-  - [ ] Add a Products list page
-  - [ ] Add a Product card componet
-- [ ] Add intersection observer
-  - [ ] Create a useEffect to register observer
-  - [ ] Call API with offset when needed
+- [x] Add a Products page using the API
+  - [x] Call the API on mount
+  - [x] Add a Products list page
+  - [x] Add a Product card componet
+- [x] Add intersection observer
+  - [x] Create a useEffect to register observer
+  - [x] Call API with offset when needed
+- [ ] Github Actions - CI/CD to github pages 
 - [ ] Use Protals Product card onClick

@@ -40,15 +40,14 @@ header {
 /* ProductCard */
 
 .product-card {
-  max-width: 300px;
-  /* background: #282c24; */
-  height: fit-content;
-  padding: 15px;
+  width: 300px;
+  height: 300px;
   text-align: left;
   border-radius: 8px;
-  box-shadow: 0px 0px 4px 0px var(--box-shadow-color);
+  box-shadow: 0px 0px 6px 0px var(--box-shadow-color);
   cursor: pointer;
   transition: all ease-in 0.1s;
+  overflow: hidden;
 }
 
 .product-card:hover {
@@ -56,14 +55,16 @@ header {
 
 }
 
-.product-card > img {
-  min-height: 270px;
-  max-height: 50%;
-  max-width: 100%;
+.product-img {
+  height: 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .product-details {
   display: flex;
+  padding: 15px;
   gap: 2px;
   flex-direction: column;
   text-align: left;
