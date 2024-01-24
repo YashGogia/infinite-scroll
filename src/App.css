@@ -9,7 +9,7 @@ body {
 .App {
   text-align: center;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   
 }
 
@@ -79,4 +79,31 @@ header {
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+/* Portal */
+
+.product-modal-container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.3);
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.product-modal {
+  height: 80%;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  background-color: var(--background);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  place-content: center;
 }

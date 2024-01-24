@@ -13,7 +13,7 @@ export function ProductList() {
 
   const fetchProducts = useCallback(async () => {
     setIsLoading(true);
-    fetch(`${BASE_API_URL}?limit=${LIMIT}&skip=${offset}&select=title,price,images`)
+    fetch(`${BASE_API_URL}?limit=${LIMIT}&skip=${offset}`)
       .then((response) => response.json())
       .then((data) => {
         setProducts((prev) => [...prev, ...data.products]);
