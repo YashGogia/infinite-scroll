@@ -16,5 +16,5 @@ The API used for this is:
 - [x] Add intersection observer
   - [x] Create a useEffect to register observer
   - [x] Call API with offset when needed
-- [ ] Github Actions - CI/CD to github pages 
-- [ ] Use Protals Product card onClick
+- [x] Github Actions - CI/CD to github pages
+- [x] Use Protals Product card onClick
