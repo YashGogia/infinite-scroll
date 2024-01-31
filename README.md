@@ -4,7 +4,7 @@
 
 In this example we'll explore a simple infinite scroll example using intersection observer in React.
 
-The API used for this is:
+The API used for this example is:
 `https://dummyjson.com/products`
 
 ## Checklist
@@ -18,3 +18,4 @@ The API used for this is:
   - [x] Call API with offset when needed
 - [x] Github Actions - CI/CD to github pages
 - [x] Use Protals Product card onClick
+- [ ] Add a loading indicator
